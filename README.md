@@ -1,2 +1,2 @@
 # Chubender Game
-- By Christopher Chu, Bailey Casselman, Cole Tucker, and Dalton Turner.
+- By Bailey Casselman, Christopher Chu, Cole Tucker, and Dalton Turner.
