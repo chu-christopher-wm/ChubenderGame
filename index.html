@@ -17,9 +17,12 @@
             "'Every week you will use your skills to fight the other prisoners stationed here will fight every week in a fight to the death... if you do not comply you will be executed'. \n" +
             " He demonstrated by firing a singe bolt of lightning at the man in front of you killing him instantly, the smell of burning flesh hits your nose and your knees become week as you see the mans lifeless body fall to the floor in front of you.\n " +
             "'Are you ready?'");
-
     function start() {
-        var begin = prompt("Choose Your Nation! \
+        var userName = prompt("What is your name?");
+        if (userName == "") {
+            start();
+        }
+        var begin = prompt("Chuse Your Nation! \
         Air || Water || Earth || Fire").toUpperCase();
         if (begin == "") {
             start();
@@ -67,7 +70,7 @@
 
         }
         else {
-            
+
         }
     }
     // Fire
@@ -75,6 +78,8 @@
         alert("You lived in the Fire Nation during this time, a part of their military, you followed the rest of your comrades. Corruption was rampant \n" +
         "among the military, disgusted, you desert. Leaving for the city of Zhy you take refuge. Apparently word of your departure was \n" +
         "already widespread, and you are being hunted. Before you are able to escape, you are captured and sent to the Gladiator Arena in the fire nation capital.");
+        alert("You were apart of the Fire Nation's military, conquest and battle was all you knew. You had deserted after seeing the the corruption within the military. \n " +
+                "You leave camp and have been on the run ever since. You were recaptured in the city of Zhy and transported to the Fire Nation Capital to take part in their Gladiator fights.");
         alert();
         alert();
         alert();
@@ -95,3 +100,4 @@
 </script>
 </body>
 </html>
+No newline at end of file
